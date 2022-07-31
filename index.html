@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Javascript Quiz</title>
+        <link rel="stylesheet" href="./assets/style.css">
+      </head>
+
+    <body>
+        <!-- Link to see all highscores saved to local storage -->
+        <aside class="highScore">
+            <a href="highScore.html">Highscores!</a>
+        </aside>
+
+        <!-- Main text box that will change based off the JS -->
+        <div class="main-text">
+            <div id="timer"></div>
+            <div id="questions-text">
+                <h1>Javascript Quiz</h1>
+                    <p>You will have 75 seconds to answers all 5 questions.</p>
+                    <p>Be careful, if you get an answer wrong you will lose 10 seconds!</p>
+                <ul id="choices"></ul>
+                <button id="startTimer">Start Quiz</button>
+            </div>
+        </div>
+
+        <script src="./assets/js/script.js"></script>
+
+    </body>
+</html>
