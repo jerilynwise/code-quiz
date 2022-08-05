@@ -78,3 +78,33 @@ function render(questionIndex) {
     })
 };
 
+//function to see if the player chose the correct answer
+function matchUp(event) {
+    var element = event.target;
+
+    if (element.matches("li")) {
+
+        var createDiv = document.createElement("div");
+        createDiv.setAttribute("id", "createDiv");
+
+        //correct answer selected
+        if(element.textContent == questions[questionIndex].answer) {
+            score++;
+            createDiv.textContent = "Correct!"
+        // wrong answer selected
+        }else {
+            totalTime = totalTime - penalty;
+            createDiv.textContent = "wrong!"
+        }
+    }
+    questionIndex++;
+
+    if(questionIndex >= questions.length) {
+        quizDone();
+        createDiv.textContent = "End of quiz!" + " " + " You got " +score+ "/" + questions.length
+    } else {
+        render(questionIndex);
+    }
+    questionsText.appendChild(createDiv);    
+};
+
