@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Javascript Quiz</title>
+        <link rel="stylesheet" href="./assets/style.css">
+      </head>
+
+    <body>
+        <!-- Link to see all highscores saved to local storage -->
+        <aside class="highScore">
+            <a href="./index.html">Go Back to Quiz!</a>
+        </aside>
+
+        <!-- Main text box that will change based off the JS -->
+        <div id="mainText">
+            <div id="timer"></div>
+            <div id="scoresText">
+                <h1>Highscores</h1>
+                <ul id="topScores"></ul>
+                <button id="clear" value="reset">Clear Highscores!</button>
+            </div>
+        </div>
+
+        <script src="./assets/js/highScore.js"></script>
+
+    </body>
+</html>
