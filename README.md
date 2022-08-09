@@ -3,7 +3,9 @@
 
   Quiz created using dynmaic Javascript to update the HTML.</br>
   
-  ## Table of Contents
+ ![Code-Quiz](https://user-images.githubusercontent.com/102970872/183644342-ccbdb764-3997-4368-97a7-0f7851281684.PNG)
+
+ ## Table of Contents
 
   * [Installation](#installation)</br>
   * [Usage](#usage)</br>
