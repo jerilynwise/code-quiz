@@ -1,0 +1,59 @@
+* {
+    background: rgb(159, 159, 180);
+}
+
+#mainText {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    height: 25rem;
+    width: 40rem;
+    border-radius: 5px;
+}
+
+
+
+#questionsText h1 {
+    font-family: 'Righteous', cursive;
+    padding: 0; 
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin: 0;
+}
+
+#questionsText p{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+#questionsText ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 25px; 
+    list-style: circle;
+}
+
+#questionsText li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#questionsText {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#timer {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.highScore {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
